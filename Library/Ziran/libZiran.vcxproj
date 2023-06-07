@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{dc8b49a1-43cc-4749-bcb3-e89b934541ef}</ProjectGuid>
+    <RootNamespace>libZiran</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>../;$(ProjectDir)../../Externel;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>../;$(ProjectDir)../../Externel;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="CS\DataStructure\Box.h" />
+    <ClInclude Include="CS\DataStructure\DataArray.h" />
+    <ClInclude Include="CS\DataStructure\DataArrayBase.h" />
+    <ClInclude Include="CS\DataStructure\DataManager.h" />
+    <ClInclude Include="CS\DataStructure\DataManagerView.h" />
+    <ClInclude Include="CS\DataStructure\DisjointRanges.h" />
+    <ClInclude Include="CS\DataStructure\DisjointSets.h" />
+    <ClInclude Include="CS\DataStructure\Hash.h" />
+    <ClInclude Include="CS\DataStructure\HashTable.h" />
+    <ClInclude Include="CS\DataStructure\KdTree.h" />
+    <ClInclude Include="CS\DataStructure\MultiArray.h" />
+    <ClInclude Include="CS\DataStructure\PriorityQueue.h" />
+    <ClInclude Include="CS\DataStructure\Ref.h" />
+    <ClInclude Include="CS\DataStructure\SpatialHash.h" />
+    <ClInclude Include="CS\Util\Active.h" />
+    <ClInclude Include="CS\Util\AttributeNamesForward.h" />
+    <ClInclude Include="CS\Util\BinaryIO.h" />
+    <ClInclude Include="CS\Util\CommandLineFlags.h" />
+    <ClInclude Include="CS\Util\Debug.h" />
+    <ClInclude Include="CS\Util\ErrorContext.h" />
+    <ClInclude Include="CS\Util\Factory.h" />
+    <ClInclude Include="CS\Util\Filesystem.h" />
+    <ClInclude Include="CS\Util\FloatingPointExceptions.h" />
+    <ClInclude Include="CS\Util\FlopCount.h" />
+    <ClInclude Include="CS\Util\Forward.h" />
+    <ClInclude Include="CS\Util\Meta.h" />
+    <ClInclude Include="CS\Util\PlatformSpecific.h" />
+    <ClInclude Include="CS\Util\Plugin.h" />
+    <ClInclude Include="CS\Util\PluginManager.h" />
+    <ClInclude Include="CS\Util\PrettyPrinting.h" />
+    <ClInclude Include="CS\Util\RandomNumber.h" />
+    <ClInclude Include="CS\Util\SharedLibrary.h" />
+    <ClInclude Include="CS\Util\SharedQueue.h" />
+    <ClInclude Include="CS\Util\StackTrace.h" />
+    <ClInclude Include="CS\Util\StaticIf.h" />
+    <ClInclude Include="CS\Util\Strings.h" />
+    <ClInclude Include="CS\Util\Timer.h" />
+    <ClInclude Include="Math\Geometry\AnalyticLevelSet.h" />
+    <ClInclude Include="Math\Geometry\BinaryCurveCollectionIO.h" />
+    <ClInclude Include="Math\Geometry\CollisionObject.h" />
+    <ClInclude Include="Math\Geometry\CurveFinder.h" />
+    <ClInclude Include="Math\Geometry\ElementManager.h" />
+    <ClInclude Include="Math\Geometry\ElementManagerFor.h" />
+    <ClInclude Include="Math\Geometry\Elements.h" />
+    <ClInclude Include="Math\Geometry\Grid.h" />
+    <ClInclude Include="Math\Geometry\MeshConstruction.h" />
+    <ClInclude Include="Math\Geometry\ObjIO.h" />
+    <ClInclude Include="Math\Geometry\OutputPolyMesh.h" />
+    <ClInclude Include="Math\Geometry\Particles.h" />
+    <ClInclude Include="Math\Geometry\PartioIO.h" />
+    <ClInclude Include="Math\Geometry\PoissonDisk.h" />
+    <ClInclude Include="Math\Geometry\PolyIO.h" />
+    <ClInclude Include="Math\Geometry\RandomSampling.h" />
+    <ClInclude Include="Math\Geometry\Rotation.h" />
+    <ClInclude Include="Math\Geometry\Segment.h" />
+    <ClInclude Include="Math\Geometry\SimplexElements.h" />
+    <ClInclude Include="Math\Geometry\SimplexMesh.h" />
+    <ClInclude Include="Math\Geometry\SourceCollisionObject.h" />
+    <ClInclude Include="Math\Geometry\TetGenIO.h" />
+    <ClInclude Include="Math\Geometry\Tetrahedron.h" />
+    <ClInclude Include="Math\Geometry\Triangle.h" />
+    <ClInclude Include="Math\Geometry\UrjcKnitDataIO.h" />
+    <ClInclude Include="Math\Geometry\UscHairDataIO.h" />
+    <ClInclude Include="Math\Geometry\VdbIsoSurface.h" />
+    <ClInclude Include="Math\Geometry\VdbLevelSet.h" />
+    <ClInclude Include="Math\Geometry\VertexMesh.h" />
+    <ClInclude Include="Math\Geometry\VoronoiNoise.h" />
+    <ClInclude Include="Math\Geometry\VtkIO.h" />
+    <ClInclude Include="Math\Linear\ConjugateGradient.h" />
+    <ClInclude Include="Math\Linear\Decomposition.h" />
+    <ClInclude Include="Math\Linear\DenseExt.h" />
+    <ClInclude Include="Math\Linear\EigenBuiltinJacobiSVD.h" />
+    <ClInclude Include="Math\Linear\EigenSparseLU.h" />
+    <ClInclude Include="Math\Linear\GeneralizedMinimalResidual.h" />
+    <ClInclude Include="Math\Linear\Givens.h" />
+    <ClInclude Include="Math\Linear\GivensQR.h" />
+    <ClInclude Include="Math\Linear\ImplicitQRSVD.h" />
+    <ClInclude Include="Math\Linear\KrylovSolvers.h" />
+    <ClInclude Include="Math\Linear\LinearSolver.h" />
+    <ClInclude Include="Math\Linear\Minres.h" />
+    <ClInclude Include="Math\MathTools.h" />
+    <ClInclude Include="Math\Nonlinear\AutoDiff.h" />
+    <ClInclude Include="Math\Nonlinear\NewtonsMethod.h" />
+    <ClInclude Include="Math\SphKernels.h" />
+    <ClInclude Include="Math\Splines\BSplines.h" />
+    <ClInclude Include="Math\Statistics.h" />
+    <ClInclude Include="Physics\ConstitutiveModel\ConstitutiveModel.h" />
+    <ClInclude Include="Physics\ConstitutiveModel\HyperelasticConstitutiveModel.h" />
+    <ClInclude Include="Physics\ConstitutiveModel\NeoHookeanBorden.h" />
+    <ClInclude Include="Physics\ConstitutiveModel\StvkWithHencky.h" />
+    <ClInclude Include="Physics\ConstitutiveModel\StvkWithHenckyIsotropic.h" />
+    <ClInclude Include="Physics\ConstitutiveModel\SvdBasedIsotropicHelper.h" />
+    <ClInclude Include="Physics\LagrangianForce\Inertia.h" />
+    <ClInclude Include="Physics\LagrangianForce\LagrangianForce.h" />
+    <ClInclude Include="Physics\PlasticityApplier.h" />
+    <ClInclude Include="Physics\SimplexMeshPoisson.h" />
+    <ClInclude Include="Physics\SoundSpeedCfl.h" />
+    <ClInclude Include="Sim\BackwardEuler.h" />
+    <ClInclude Include="Sim\DiffTest.h" />
+    <ClInclude Include="Sim\MeshHandle.h" />
+    <ClInclude Include="Sim\Scene.h" />
+    <ClInclude Include="Sim\SceneInitializationCore.h" />
+    <ClInclude Include="Sim\SimulationBase.h" />
+    <ClInclude Include="Sim\TimeStepping.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CS\DataStructure\Box.cpp" />
+    <ClCompile Include="CS\DataStructure\DataArrayBase.cpp" />
+    <ClCompile Include="CS\DataStructure\KdTree.cpp" />
+    <ClCompile Include="CS\Util\Active.cpp" />
+    <ClCompile Include="CS\Util\ErrorContext.cpp" />
+    <ClCompile Include="CS\Util\FloatingPointExceptions.cpp" />
+    <ClCompile Include="CS\Util\PluginManager.cpp" />
+    <ClCompile Include="CS\Util\PrettyPrinting.cpp" />
+    <ClCompile Include="CS\Util\RandomNumber.cpp" />
+    <ClCompile Include="CS\Util\SharedLibrary.cpp" />
+    <ClCompile Include="CS\Util\StackTrace.cpp" />
+    <ClCompile Include="CS\Util\Timer.cpp" />
+    <ClCompile Include="Math\Geometry\AnalyticLevelSet.cpp" />
+    <ClCompile Include="Math\Geometry\BinaryCurveCollectionIO.cpp" />
+    <ClCompile Include="Math\Geometry\CollisionObject.cpp" />
+    <ClCompile Include="Math\Geometry\CurveFinder.cpp" />
+    <ClCompile Include="Math\Geometry\Grid.cpp" />
+    <ClCompile Include="Math\Geometry\MeshConstruction.cpp" />
+    <ClCompile Include="Math\Geometry\ObjIO.cpp" />
+    <ClCompile Include="Math\Geometry\PolyIO.cpp" />
+    <ClCompile Include="Math\Geometry\Segment.cpp" />
+    <ClCompile Include="Math\Geometry\SimplexElements.cpp" />
+    <ClCompile Include="Math\Geometry\SimplexMesh.cpp" />
+    <ClCompile Include="Math\Geometry\SourceCollisionObject.cpp" />
+    <ClCompile Include="Math\Geometry\TetGenIO.cpp" />
+    <ClCompile Include="Math\Geometry\Tetrahedron.cpp" />
+    <ClCompile Include="Math\Geometry\Triangle.cpp" />
+    <ClCompile Include="Math\Geometry\UrjcKnitDataIO.cpp" />
+    <ClCompile Include="Math\Geometry\UscHairDataIO.cpp" />
+    <ClCompile Include="Math\Geometry\VdbLevelSet.cpp" />
+    <ClCompile Include="Math\Geometry\VertexMesh.cpp" />
+    <ClCompile Include="Math\Geometry\VoronoiNoise.cpp" />
+    <ClCompile Include="Math\Linear\EigenSparseLU.cpp" />
+    <ClCompile Include="Math\Statistics.cpp" />
+    <ClCompile Include="Physics\ConstitutiveModel\NeoHookeanBorden.cpp" />
+    <ClCompile Include="Physics\ConstitutiveModel\StvkWithHencky.cpp" />
+    <ClCompile Include="Physics\LagrangianForce\Inertia.cpp" />
+    <ClCompile Include="Physics\PlasticityApplier.cpp" />
+    <ClCompile Include="Sim\MeshHandle.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

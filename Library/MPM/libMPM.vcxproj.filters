@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="MPM">
+      <UniqueIdentifier>{83296874-baf7-42f6-8d09-289dd966a04b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MPM\Force">
+      <UniqueIdentifier>{5537fe78-ad02-403b-b7b2-4bb757fa3ed2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MPM\Forward">
+      <UniqueIdentifier>{8ddc39bc-6d91-42f6-9235-f86c7d6cb955}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MPM\instantiations">
+      <UniqueIdentifier>{01a13751-6cdf-43df-86fd-5194b9db95db}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MpmGrid.h">
+      <Filter>MPM</Filter>
+    </ClInclude>
+    <ClInclude Include="MpmInitializationHelper.h">
+      <Filter>MPM</Filter>
+    </ClInclude>
+    <ClInclude Include="MpmParticleHandleBase.h">
+      <Filter>MPM</Filter>
+    </ClInclude>
+    <ClInclude Include="MpmSimulationBase.h">
+      <Filter>MPM</Filter>
+    </ClInclude>
+    <ClInclude Include="MpmSimulationDataAnalysis.h">
+      <Filter>MPM</Filter>
+    </ClInclude>
+    <ClInclude Include="Force\FBasedMpmForceHelper.h">
+      <Filter>MPM\Force</Filter>
+    </ClInclude>
+    <ClInclude Include="Force\FElasticNonequilibratedBasedMpmForceHelper.h">
+      <Filter>MPM\Force</Filter>
+    </ClInclude>
+    <ClInclude Include="Force\MpmForceBase.h">
+      <Filter>MPM\Force</Filter>
+    </ClInclude>
+    <ClInclude Include="Force\MpmForceHelperBase.h">
+      <Filter>MPM\Force</Filter>
+    </ClInclude>
+    <ClInclude Include="Forward\MpmForward.h">
+      <Filter>MPM\Forward</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MpmSimulationBase.cpp">
+      <Filter>MPM</Filter>
+    </ClCompile>
+    <ClCompile Include="MpmParticleHandleBase.cpp">
+      <Filter>MPM</Filter>
+    </ClCompile>
+    <ClCompile Include="Force\FBasedMpmForceHelper.cpp">
+      <Filter>MPM\Force</Filter>
+    </ClCompile>
+    <ClCompile Include="Force\MpmForceBase.cpp">
+      <Filter>MPM\Force</Filter>
+    </ClCompile>
+    <ClCompile Include="instantiations\FBasedMpmForceHelper2d.cpp">
+      <Filter>MPM\instantiations</Filter>
+    </ClCompile>
+    <ClCompile Include="instantiations\FBasedMpmForceHelper2f.cpp">
+      <Filter>MPM\instantiations</Filter>
+    </ClCompile>
+    <ClCompile Include="instantiations\FBasedMpmForceHelper3d.cpp">
+      <Filter>MPM\instantiations</Filter>
+    </ClCompile>
+    <ClCompile Include="instantiations\FBasedMpmForceHelper3f.cpp">
+      <Filter>MPM\instantiations</Filter>
+    </ClCompile>
+    <ClCompile Include="instantiations\MpmForce2d.cpp">
+      <Filter>MPM\instantiations</Filter>
+    </ClCompile>
+    <ClCompile Include="instantiations\MpmForce2f.cpp">
+      <Filter>MPM\instantiations</Filter>
+    </ClCompile>
+    <ClCompile Include="instantiations\MpmForce3d.cpp">
+      <Filter>MPM\instantiations</Filter>
+    </ClCompile>
+    <ClCompile Include="instantiations\MpmForce3f.cpp">
+      <Filter>MPM\instantiations</Filter>
+    </ClCompile>
+    <ClCompile Include="instantiations\MpmParticlesHandle2d.cpp">
+      <Filter>MPM\instantiations</Filter>
+    </ClCompile>
+    <ClCompile Include="instantiations\MpmParticlesHandle2f.cpp">
+      <Filter>MPM\instantiations</Filter>
+    </ClCompile>
+    <ClCompile Include="instantiations\MpmParticlesHandle3d.cpp">
+      <Filter>MPM\instantiations</Filter>
+    </ClCompile>
+    <ClCompile Include="instantiations\MpmParticlesHandle3f.cpp">
+      <Filter>MPM\instantiations</Filter>
+    </ClCompile>
+    <ClCompile Include="instantiations\MpmSimulation2d.cpp">
+      <Filter>MPM\instantiations</Filter>
+    </ClCompile>
+    <ClCompile Include="instantiations\MpmSimulation2f.cpp">
+      <Filter>MPM\instantiations</Filter>
+    </ClCompile>
+    <ClCompile Include="instantiations\MpmSimulation3d.cpp">
+      <Filter>MPM\instantiations</Filter>
+    </ClCompile>
+    <ClCompile Include="instantiations\MpmSimulation3f.cpp">
+      <Filter>MPM\instantiations</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

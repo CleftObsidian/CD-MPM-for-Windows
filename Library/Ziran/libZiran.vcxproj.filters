@@ -1,0 +1,482 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="CS">
+      <UniqueIdentifier>{a09e652b-a9a0-4d0f-adf4-f80b6dd09b48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{7984fe34-7132-49c1-b824-8f76227f51d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics">
+      <UniqueIdentifier>{87e64ed1-3d0d-4c79-a19e-00406da6276d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sim">
+      <UniqueIdentifier>{070dabfc-d9e1-44a4-b215-06ab77a46614}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CS\DataStructure">
+      <UniqueIdentifier>{029c9a98-51a1-4090-981b-90f158bb1468}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CS\Util">
+      <UniqueIdentifier>{9b94485c-237c-43b9-a89e-ac51e58775c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\Geometry">
+      <UniqueIdentifier>{065b03b9-071c-4029-9d36-d239ab7317a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\Linear">
+      <UniqueIdentifier>{8ec3b943-8320-42d3-947b-4bb9b2bf922c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\Nonlinear">
+      <UniqueIdentifier>{0528e7fb-3803-4b08-a2d8-f8eb5d556db5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\Splines">
+      <UniqueIdentifier>{25bd0d49-8ce3-487e-ab36-b6e81891f4ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics\ConstitutiveModel">
+      <UniqueIdentifier>{1683e4f7-866c-46c2-be5f-fce99d84d8f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics\LagrangianForce">
+      <UniqueIdentifier>{b4554ff7-d61d-4461-a2d3-c22f37c0dd69}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CS\DataStructure\Box.h">
+      <Filter>CS\DataStructure</Filter>
+    </ClInclude>
+    <ClInclude Include="CS\DataStructure\DataArray.h">
+      <Filter>CS\DataStructure</Filter>
+    </ClInclude>
+    <ClInclude Include="CS\DataStructure\DataArrayBase.h">
+      <Filter>CS\DataStructure</Filter>
+    </ClInclude>
+    <ClInclude Include="CS\DataStructure\DataManager.h">
+      <Filter>CS\DataStructure</Filter>
+    </ClInclude>
+    <ClInclude Include="CS\DataStructure\DataManagerView.h">
+      <Filter>CS\DataStructure</Filter>
+    </ClInclude>
+    <ClInclude Include="CS\DataStructure\DisjointRanges.h">
+      <Filter>CS\DataStructure</Filter>
+    </ClInclude>
+    <ClInclude Include="CS\DataStructure\DisjointSets.h">
+      <Filter>CS\DataStructure</Filter>
+    </ClInclude>
+    <ClInclude Include="CS\DataStructure\Hash.h">
+      <Filter>CS\DataStructure</Filter>
+    </ClInclude>
+    <ClInclude Include="CS\DataStructure\HashTable.h">
+      <Filter>CS\DataStructure</Filter>
+    </ClInclude>
+    <ClInclude Include="CS\DataStructure\KdTree.h">
+      <Filter>CS\DataStructure</Filter>
+    </ClInclude>
+    <ClInclude Include="CS\DataStructure\MultiArray.h">
+      <Filter>CS\DataStructure</Filter>
+    </ClInclude>
+    <ClInclude Include="CS\DataStructure\PriorityQueue.h">
+      <Filter>CS\DataStructure</Filter>
+    </ClInclude>
+    <ClInclude Include="CS\DataStructure\Ref.h">
+      <Filter>CS\DataStructure</Filter>
+    </ClInclude>
+    <ClInclude Include="CS\DataStructure\SpatialHash.h">
+      <Filter>CS\DataStructure</Filter>
+    </ClInclude>
+    <ClInclude Include="CS\Util\Active.h">
+      <Filter>CS\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="CS\Util\AttributeNamesForward.h">
+      <Filter>CS\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="CS\Util\BinaryIO.h">
+      <Filter>CS\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="CS\Util\CommandLineFlags.h">
+      <Filter>CS\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="CS\Util\Debug.h">
+      <Filter>CS\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="CS\Util\ErrorContext.h">
+      <Filter>CS\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="CS\Util\Factory.h">
+      <Filter>CS\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="CS\Util\Filesystem.h">
+      <Filter>CS\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="CS\Util\FloatingPointExceptions.h">
+      <Filter>CS\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="CS\Util\FlopCount.h">
+      <Filter>CS\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="CS\Util\Forward.h">
+      <Filter>CS\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="CS\Util\Meta.h">
+      <Filter>CS\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="CS\Util\PlatformSpecific.h">
+      <Filter>CS\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="CS\Util\Plugin.h">
+      <Filter>CS\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="CS\Util\PluginManager.h">
+      <Filter>CS\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="CS\Util\PrettyPrinting.h">
+      <Filter>CS\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="CS\Util\RandomNumber.h">
+      <Filter>CS\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="CS\Util\SharedLibrary.h">
+      <Filter>CS\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="CS\Util\SharedQueue.h">
+      <Filter>CS\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="CS\Util\StackTrace.h">
+      <Filter>CS\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="CS\Util\StaticIf.h">
+      <Filter>CS\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="CS\Util\Strings.h">
+      <Filter>CS\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="CS\Util\Timer.h">
+      <Filter>CS\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\MathTools.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\SphKernels.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Statistics.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Geometry\AnalyticLevelSet.h">
+      <Filter>Math\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Geometry\BinaryCurveCollectionIO.h">
+      <Filter>Math\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Geometry\CollisionObject.h">
+      <Filter>Math\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Geometry\CurveFinder.h">
+      <Filter>Math\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Geometry\ElementManager.h">
+      <Filter>Math\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Geometry\ElementManagerFor.h">
+      <Filter>Math\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Geometry\Elements.h">
+      <Filter>Math\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Geometry\Grid.h">
+      <Filter>Math\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Geometry\MeshConstruction.h">
+      <Filter>Math\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Geometry\ObjIO.h">
+      <Filter>Math\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Geometry\OutputPolyMesh.h">
+      <Filter>Math\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Geometry\Particles.h">
+      <Filter>Math\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Geometry\PartioIO.h">
+      <Filter>Math\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Geometry\PoissonDisk.h">
+      <Filter>Math\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Geometry\PolyIO.h">
+      <Filter>Math\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Geometry\RandomSampling.h">
+      <Filter>Math\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Geometry\Rotation.h">
+      <Filter>Math\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Geometry\Segment.h">
+      <Filter>Math\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Geometry\SimplexElements.h">
+      <Filter>Math\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Geometry\SimplexMesh.h">
+      <Filter>Math\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Geometry\SourceCollisionObject.h">
+      <Filter>Math\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Geometry\TetGenIO.h">
+      <Filter>Math\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Geometry\Tetrahedron.h">
+      <Filter>Math\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Geometry\Triangle.h">
+      <Filter>Math\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Geometry\UrjcKnitDataIO.h">
+      <Filter>Math\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Geometry\UscHairDataIO.h">
+      <Filter>Math\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Geometry\VdbIsoSurface.h">
+      <Filter>Math\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Geometry\VdbLevelSet.h">
+      <Filter>Math\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Geometry\VertexMesh.h">
+      <Filter>Math\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Geometry\VoronoiNoise.h">
+      <Filter>Math\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Geometry\VtkIO.h">
+      <Filter>Math\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Linear\ConjugateGradient.h">
+      <Filter>Math\Linear</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Linear\Decomposition.h">
+      <Filter>Math\Linear</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Linear\DenseExt.h">
+      <Filter>Math\Linear</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Linear\EigenBuiltinJacobiSVD.h">
+      <Filter>Math\Linear</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Linear\EigenSparseLU.h">
+      <Filter>Math\Linear</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Linear\GeneralizedMinimalResidual.h">
+      <Filter>Math\Linear</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Linear\Givens.h">
+      <Filter>Math\Linear</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Linear\GivensQR.h">
+      <Filter>Math\Linear</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Linear\ImplicitQRSVD.h">
+      <Filter>Math\Linear</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Linear\KrylovSolvers.h">
+      <Filter>Math\Linear</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Linear\LinearSolver.h">
+      <Filter>Math\Linear</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Linear\Minres.h">
+      <Filter>Math\Linear</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Nonlinear\AutoDiff.h">
+      <Filter>Math\Nonlinear</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Nonlinear\NewtonsMethod.h">
+      <Filter>Math\Nonlinear</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Splines\BSplines.h">
+      <Filter>Math\Splines</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\PlasticityApplier.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\SimplexMeshPoisson.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\SoundSpeedCfl.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\ConstitutiveModel\ConstitutiveModel.h">
+      <Filter>Physics\ConstitutiveModel</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\ConstitutiveModel\HyperelasticConstitutiveModel.h">
+      <Filter>Physics\ConstitutiveModel</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\ConstitutiveModel\NeoHookeanBorden.h">
+      <Filter>Physics\ConstitutiveModel</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\ConstitutiveModel\StvkWithHencky.h">
+      <Filter>Physics\ConstitutiveModel</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\ConstitutiveModel\StvkWithHenckyIsotropic.h">
+      <Filter>Physics\ConstitutiveModel</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\ConstitutiveModel\SvdBasedIsotropicHelper.h">
+      <Filter>Physics\ConstitutiveModel</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\LagrangianForce\Inertia.h">
+      <Filter>Physics\LagrangianForce</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\LagrangianForce\LagrangianForce.h">
+      <Filter>Physics\LagrangianForce</Filter>
+    </ClInclude>
+    <ClInclude Include="Sim\BackwardEuler.h">
+      <Filter>Sim</Filter>
+    </ClInclude>
+    <ClInclude Include="Sim\DiffTest.h">
+      <Filter>Sim</Filter>
+    </ClInclude>
+    <ClInclude Include="Sim\MeshHandle.h">
+      <Filter>Sim</Filter>
+    </ClInclude>
+    <ClInclude Include="Sim\Scene.h">
+      <Filter>Sim</Filter>
+    </ClInclude>
+    <ClInclude Include="Sim\SceneInitializationCore.h">
+      <Filter>Sim</Filter>
+    </ClInclude>
+    <ClInclude Include="Sim\SimulationBase.h">
+      <Filter>Sim</Filter>
+    </ClInclude>
+    <ClInclude Include="Sim\TimeStepping.h">
+      <Filter>Sim</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CS\DataStructure\Box.cpp">
+      <Filter>CS\DataStructure</Filter>
+    </ClCompile>
+    <ClCompile Include="CS\DataStructure\DataArrayBase.cpp">
+      <Filter>CS\DataStructure</Filter>
+    </ClCompile>
+    <ClCompile Include="CS\DataStructure\KdTree.cpp">
+      <Filter>CS\DataStructure</Filter>
+    </ClCompile>
+    <ClCompile Include="CS\Util\Active.cpp">
+      <Filter>CS\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="CS\Util\ErrorContext.cpp">
+      <Filter>CS\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="CS\Util\FloatingPointExceptions.cpp">
+      <Filter>CS\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="CS\Util\PluginManager.cpp">
+      <Filter>CS\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="CS\Util\PrettyPrinting.cpp">
+      <Filter>CS\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="CS\Util\RandomNumber.cpp">
+      <Filter>CS\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="CS\Util\SharedLibrary.cpp">
+      <Filter>CS\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="CS\Util\StackTrace.cpp">
+      <Filter>CS\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="CS\Util\Timer.cpp">
+      <Filter>CS\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Statistics.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Geometry\AnalyticLevelSet.cpp">
+      <Filter>Math\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Geometry\BinaryCurveCollectionIO.cpp">
+      <Filter>Math\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Geometry\CollisionObject.cpp">
+      <Filter>Math\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Geometry\CurveFinder.cpp">
+      <Filter>Math\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Geometry\Grid.cpp">
+      <Filter>Math\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Geometry\MeshConstruction.cpp">
+      <Filter>Math\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Geometry\ObjIO.cpp">
+      <Filter>Math\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Geometry\PolyIO.cpp">
+      <Filter>Math\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Geometry\Segment.cpp">
+      <Filter>Math\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Geometry\SimplexElements.cpp">
+      <Filter>Math\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Geometry\SimplexMesh.cpp">
+      <Filter>Math\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Geometry\SourceCollisionObject.cpp">
+      <Filter>Math\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Geometry\TetGenIO.cpp">
+      <Filter>Math\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Geometry\Tetrahedron.cpp">
+      <Filter>Math\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Geometry\Triangle.cpp">
+      <Filter>Math\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Geometry\UrjcKnitDataIO.cpp">
+      <Filter>Math\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Geometry\UscHairDataIO.cpp">
+      <Filter>Math\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Geometry\VdbLevelSet.cpp">
+      <Filter>Math\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Geometry\VertexMesh.cpp">
+      <Filter>Math\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Geometry\VoronoiNoise.cpp">
+      <Filter>Math\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Linear\EigenSparseLU.cpp">
+      <Filter>Math\Linear</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\PlasticityApplier.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\ConstitutiveModel\NeoHookeanBorden.cpp">
+      <Filter>Physics\ConstitutiveModel</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\ConstitutiveModel\StvkWithHencky.cpp">
+      <Filter>Physics\ConstitutiveModel</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\LagrangianForce\Inertia.cpp">
+      <Filter>Physics\LagrangianForce</Filter>
+    </ClCompile>
+    <ClCompile Include="Sim\MeshHandle.cpp">
+      <Filter>Sim</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
