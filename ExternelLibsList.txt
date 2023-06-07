@@ -1,0 +1,12 @@
+boost
+Eigen
+gtest
+kdtree++
+oneapi
+openvdb
+Partio
+sys
+tbb
+tick
+dirent
+metis
